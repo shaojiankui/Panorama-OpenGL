@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B806FD4B1D3F54D800C20BD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B806FD4A1D3F54D800C20BD1 /* main.m */; };
+		B806FD4E1D3F54D800C20BD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B806FD4D1D3F54D800C20BD1 /* AppDelegate.m */; };
+		B806FD561D3F54D800C20BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B806FD551D3F54D800C20BD1 /* Assets.xcassets */; };
+		B806FD591D3F54D800C20BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B806FD571D3F54D800C20BD1 /* LaunchScreen.storyboard */; };
+		B806FD611D3F552100C20BD1 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B806FD601D3F552100C20BD1 /* GLKit.framework */; };
+		B806FD711D3F562E00C20BD1 /* SphericalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B806FD701D3F562E00C20BD1 /* SphericalViewController.m */; };
+		B8BB9BE61DC1B76F0004C61C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BB9BE41DC1B76F0004C61C /* RootViewController.m */; };
+		B8BB9BE71DC1B76F0004C61C /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8BB9BE51DC1B76F0004C61C /* RootViewController.xib */; };
+		B8BB9BEA1DC1B8290004C61C /* CubicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BB9BE91DC1B8290004C61C /* CubicViewController.m */; };
+		B8BE43811F7CA11A0005C9DF /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = B8BE43801F7CA1140005C9DF /* back.png */; };
+		B8BE43821F7CA11A0005C9DF /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = B8BE437B1F7CA1130005C9DF /* down.png */; };
+		B8BE43831F7CA11A0005C9DF /* front.png in Resources */ = {isa = PBXBuildFile; fileRef = B8BE437C1F7CA1130005C9DF /* front.png */; };
+		B8BE43841F7CA11A0005C9DF /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = B8BE437D1F7CA1130005C9DF /* left.png */; };
+		B8BE43851F7CA11A0005C9DF /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = B8BE437E1F7CA1130005C9DF /* right.png */; };
+		B8BE43861F7CA11A0005C9DF /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = B8BE437F1F7CA1140005C9DF /* up.png */; };
+		B8BE43871F7CA13B0005C9DF /* Spherical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B8BE437A1F7CA0700005C9DF /* Spherical.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B806FD461D3F54D800C20BD1 /* Panorama-OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Panorama-OpenGL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B806FD4A1D3F54D800C20BD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B806FD4C1D3F54D800C20BD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B806FD4D1D3F54D800C20BD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B806FD551D3F54D800C20BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B806FD581D3F54D800C20BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B806FD5A1D3F54D800C20BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B806FD601D3F552100C20BD1 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B806FD6F1D3F562E00C20BD1 /* SphericalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphericalViewController.h; sourceTree = "<group>"; };
+		B806FD701D3F562E00C20BD1 /* SphericalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphericalViewController.m; sourceTree = "<group>"; };
+		B80EADC91DC1C74000AC17A1 /* monkeytex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = monkeytex.h; sourceTree = "<group>"; };
+		B8BB9BE31DC1B76F0004C61C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B8BB9BE41DC1B76F0004C61C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B8BB9BE51DC1B76F0004C61C /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		B8BB9BE81DC1B8290004C61C /* CubicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubicViewController.h; sourceTree = "<group>"; };
+		B8BB9BE91DC1B8290004C61C /* CubicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubicViewController.m; sourceTree = "<group>"; };
+		B8BE437A1F7CA0700005C9DF /* Spherical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Spherical.jpg; sourceTree = "<group>"; };
+		B8BE437B1F7CA1130005C9DF /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		B8BE437C1F7CA1130005C9DF /* front.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = front.png; sourceTree = "<group>"; };
+		B8BE437D1F7CA1130005C9DF /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		B8BE437E1F7CA1130005C9DF /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		B8BE437F1F7CA1140005C9DF /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		B8BE43801F7CA1140005C9DF /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B806FD431D3F54D800C20BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B806FD611D3F552100C20BD1 /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B806FD3D1D3F54D800C20BD1 = {
+			isa = PBXGroup;
+			children = (
+				B806FD601D3F552100C20BD1 /* GLKit.framework */,
+				B806FD481D3F54D800C20BD1 /* Panorama-OpenGL */,
+				B806FD471D3F54D800C20BD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B806FD471D3F54D800C20BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B806FD461D3F54D800C20BD1 /* Panorama-OpenGL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B806FD481D3F54D800C20BD1 /* Panorama-OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				B8BE43791F7CA05E0005C9DF /* Resources */,
+				B806FD4C1D3F54D800C20BD1 /* AppDelegate.h */,
+				B8BE437A1F7CA0700005C9DF /* Spherical.jpg */,
+				B806FD4D1D3F54D800C20BD1 /* AppDelegate.m */,
+				B8BE43801F7CA1140005C9DF /* back.png */,
+				B8BE437B1F7CA1130005C9DF /* down.png */,
+				B8BE437C1F7CA1130005C9DF /* front.png */,
+				B8BE437D1F7CA1130005C9DF /* left.png */,
+				B8BE437E1F7CA1130005C9DF /* right.png */,
+				B8BE437F1F7CA1140005C9DF /* up.png */,
+				B806FD701D3F562E00C20BD1 /* SphericalViewController.m */,
+				B806FD6F1D3F562E00C20BD1 /* SphericalViewController.h */,
+				B80EADC91DC1C74000AC17A1 /* monkeytex.h */,
+				B8BB9BE81DC1B8290004C61C /* CubicViewController.h */,
+				B8BB9BE91DC1B8290004C61C /* CubicViewController.m */,
+				B8BB9BE31DC1B76F0004C61C /* RootViewController.h */,
+				B8BB9BE41DC1B76F0004C61C /* RootViewController.m */,
+				B8BB9BE51DC1B76F0004C61C /* RootViewController.xib */,
+				B806FD551D3F54D800C20BD1 /* Assets.xcassets */,
+				B806FD571D3F54D800C20BD1 /* LaunchScreen.storyboard */,
+				B806FD5A1D3F54D800C20BD1 /* Info.plist */,
+				B806FD491D3F54D800C20BD1 /* Supporting Files */,
+			);
+			path = "Panorama-OpenGL";
+			sourceTree = "<group>";
+		};
+		B806FD491D3F54D800C20BD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B806FD4A1D3F54D800C20BD1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B8BE43791F7CA05E0005C9DF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B806FD451D3F54D800C20BD1 /* Panorama-OpenGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B806FD5D1D3F54D800C20BD1 /* Build configuration list for PBXNativeTarget "Panorama-OpenGL" */;
+			buildPhases = (
+				B806FD421D3F54D800C20BD1 /* Sources */,
+				B806FD431D3F54D800C20BD1 /* Frameworks */,
+				B806FD441D3F54D800C20BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Panorama-OpenGL";
+			productName = "Panorama-OpenGL";
+			productReference = B806FD461D3F54D800C20BD1 /* Panorama-OpenGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B806FD3E1D3F54D800C20BD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = www.skyfox.org;
+				TargetAttributes = {
+					B806FD451D3F54D800C20BD1 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = B806FD411D3F54D800C20BD1 /* Build configuration list for PBXProject "Panorama-OpenGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B806FD3D1D3F54D800C20BD1;
+			productRefGroup = B806FD471D3F54D800C20BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B806FD451D3F54D800C20BD1 /* Panorama-OpenGL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B806FD441D3F54D800C20BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8BE43811F7CA11A0005C9DF /* back.png in Resources */,
+				B8BE43871F7CA13B0005C9DF /* Spherical.jpg in Resources */,
+				B8BE43821F7CA11A0005C9DF /* down.png in Resources */,
+				B8BE43851F7CA11A0005C9DF /* right.png in Resources */,
+				B8BB9BE71DC1B76F0004C61C /* RootViewController.xib in Resources */,
+				B806FD591D3F54D800C20BD1 /* LaunchScreen.storyboard in Resources */,
+				B806FD561D3F54D800C20BD1 /* Assets.xcassets in Resources */,
+				B8BE43861F7CA11A0005C9DF /* up.png in Resources */,
+				B8BE43841F7CA11A0005C9DF /* left.png in Resources */,
+				B8BE43831F7CA11A0005C9DF /* front.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B806FD421D3F54D800C20BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B806FD4E1D3F54D800C20BD1 /* AppDelegate.m in Sources */,
+				B806FD4B1D3F54D800C20BD1 /* main.m in Sources */,
+				B806FD711D3F562E00C20BD1 /* SphericalViewController.m in Sources */,
+				B8BB9BE61DC1B76F0004C61C /* RootViewController.m in Sources */,
+				B8BB9BEA1DC1B8290004C61C /* CubicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B806FD571D3F54D800C20BD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B806FD581D3F54D800C20BD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B806FD5B1D3F54D800C20BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B806FD5C1D3F54D800C20BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B806FD5E1D3F54D800C20BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Panorama-OpenGL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.Panorama-OpenGL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B806FD5F1D3F54D800C20BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Panorama-OpenGL/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.skyfox.Panorama-OpenGL";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B806FD411D3F54D800C20BD1 /* Build configuration list for PBXProject "Panorama-OpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B806FD5B1D3F54D800C20BD1 /* Debug */,
+				B806FD5C1D3F54D800C20BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B806FD5D1D3F54D800C20BD1 /* Build configuration list for PBXNativeTarget "Panorama-OpenGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B806FD5E1D3F54D800C20BD1 /* Debug */,
+				B806FD5F1D3F54D800C20BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B806FD3E1D3F54D800C20BD1 /* Project object */;
+}
